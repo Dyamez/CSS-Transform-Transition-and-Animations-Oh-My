@@ -27,6 +27,8 @@ body  {
   height: 10px;
   width: 70%;
   margin: auto;
+  /* transform: translate(150px); */
+  /* opacity: 0; */
 }
 
 li {
