@@ -43,15 +43,25 @@ a {
 a:hover {
   color: ghostwhite;
 }
-#middle:hover {
-  /* transform: translate(150px); */
+
+
+@keyframes xmark {
+  
+
+}
+.hamburger:hover #middle {
   opacity: 0;
   transition: 2s;
-  animation-name: xmark;
 }
-#top:hover {
-  transform: rotate(45deg);
+.hamburger:hover #top {
+  position: relative;
+  transform: rotate(50deg);
+  top: 25px;
+  transition: 2s;
 }
-@keyframes xmark {
-
+.hamburger:hover #bottom {
+  transform: rotate(-50deg);
+  position: relative;
+  top: -40px;
+  transition: 2s;
 }
