@@ -27,8 +27,7 @@ body  {
   height: 10px;
   width: 70%;
   margin: auto;
-  /* transform: translate(150px); */
-  /* opacity: 0; */
+  
 }
 
 li {
@@ -43,4 +42,16 @@ a {
 }
 a:hover {
   color: ghostwhite;
+}
+#middle:hover {
+  /* transform: translate(150px); */
+  opacity: 0;
+  transition: 2s;
+  animation-name: xmark;
+}
+#top:hover {
+  transform: rotate(45deg);
+}
+@keyframes xmark {
+
 }
